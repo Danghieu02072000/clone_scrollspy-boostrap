@@ -4,7 +4,7 @@ var header = document.querySelectorAll('.header__link');
 window.onscroll = function() {
     section.forEach(function(item) {
         var top = window.scrollY;
-        var offset = item.offsetTop - 50;
+        var offset = item.offsetTop - 400;
         var height = item.offsetHeight;
         let id = item.getAttribute('id');
         if(top > offset && top < offset+height) {
