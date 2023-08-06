@@ -35,6 +35,9 @@ header {
     font-weight: 600;
     color: burlywood;
 }
+.header__link.active {
+    color:red;
+}
 section {
     width: 100%;
     height: 100vh;
